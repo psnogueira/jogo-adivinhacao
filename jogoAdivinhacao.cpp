@@ -5,7 +5,7 @@ using namespace std;
 
 int main() {
     cout << "**************************************" << endl;
-    cout << "* Bem-vindos ao jogo da adivinhação! *" << endl;
+    cout << "* Bem-vindos ao jogo da adivinhacao! *" << endl;
     cout << "**************************************" << endl;
 
     cout << "Escolha o nivel de dificuldade: " << endl;
@@ -53,17 +53,17 @@ int main() {
 
         if (acertou)
         {
-            cout << "Parabéns! Você acertou o número secreto!" << endl;
+            cout << "Parabens! Voce acertou o numero secreto!" << endl;
             nao_acertou = false;
             break;
         }
         else if (maior)
         {
-            cout << "Seu chute foi maior que o número secreto!" << endl;
+            cout << "Seu chute foi maior que o numero secreto!" << endl;
         }
         else
         {
-            cout << "Seu chute foi menor que o número secreto!" << endl;
+            cout << "Seu chute foi menor que o numero secreto!" << endl;
         }
     }
 
@@ -74,10 +74,10 @@ int main() {
     }
     else
     {
-        cout << "Você acertou o número secreto em " << tentativas  << " tentativas" << endl;
+        cout << "Voce acertou o numero secreto em " << tentativas  << " tentativas" << endl;
         cout.precision(2);
         cout << fixed;
-        cout << "Sua pontuação foi de " << pontos << " pontos." << endl;
+        cout << "Sua pontuacao foi de " << pontos << " pontos." << endl;
     }
     
     // input no fim do programa
